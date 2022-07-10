@@ -1,0 +1,36 @@
+.Title{
+    background-color: #f3f3f3;
+    border-radius: 1rem;
+    padding: 0 1rem;
+    margin:4% auto ;
+    .head{
+        width:70%;
+        font-size:4rem;
+        border: none;
+        outline: none;
+        border-radius: 0.2rem;
+        border-bottom: 1px solid purple;
+        margin: 1rem 0;
+    }
+    .description{
+        width:70%;
+        font-size:2rem;
+        border: none;
+        outline: none;
+        border-radius: 0.2rem;
+        border-bottom: 2px solid purple;
+        margin: 1rem 0;
+    }
+    
+    @media only screen and (max-device-width:600px){
+        .head,.description{
+            width: 100%;
+        }
+        .head{
+            font-size: 7rem;
+        }
+        .description{
+            font-size: 4rem;
+        }
+    }
+}
